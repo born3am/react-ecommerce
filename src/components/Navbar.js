@@ -1,9 +1,29 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 export default function Navbar() {
     return (
         <div>
-            <h1>Nav Bar</h1>
+            <div className="logo">
+                <img width="50px" src="https://i.pinimg.com/originals/25/4d/86/254d865a465f88b330e6b45d82ef29e1.png" alt="" />
+            </div>
+        
+        <nav>
+            <ul>
+                <li> <Link to="/login" >Login</Link> </li>
+                <li> <Link to="/" >Home</Link> </li>
+                <li> <Link to="/products" >Products</Link> </li>
+                <li> <Link to="/cart" >Cart</Link> </li>
+                <li> <Link to="/profile" >Profile</Link> </li>
+                <li> <Link to="/contact" >Contact</Link> </li>
+
+
+
+
+
+            </ul>
+        </nav>
+
         </div>
     )
 }
