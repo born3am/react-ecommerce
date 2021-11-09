@@ -41,6 +41,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path={"/" || "/home"} element={<Home />} />
+          
           <Route path="/login" element={<Login />} />
           <Route path="/profile" element={<Profile />} />
 
