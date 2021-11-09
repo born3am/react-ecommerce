@@ -21,7 +21,6 @@ export default function Products() {
         }
     }
 
-
     return (
         <div style={{ display: "flex", flexWrap: "wrap" }} >
 
